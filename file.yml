@@ -1,0 +1,11 @@
+---
+  name: program to create the file
+  hosts: all
+  tasks:
+    - name: code to add new file 
+      file:
+        path: /home/file.pdf
+        create: yes
+
+
+ jai shree ram         
